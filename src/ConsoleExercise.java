@@ -33,7 +33,7 @@ public class ConsoleExercise {
         System.out.println(string2);
         System.out.println(string3);
 
-        //when entering more than 3 words the system will still run but only output the first 3 words, but when less the 3 is entered the system will not respond but wont return an error
+        //when entering more than 3 words the system will still run but only output the first 3 words, but when less the 3 is entered the system will not respond but won't return an error
 
         //Declarations
         Scanner scanner2 = new Scanner(System.in);
