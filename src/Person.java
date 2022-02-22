@@ -37,9 +37,9 @@ public class Person {
         Person person2 = person1;
         System.out.println(person1.getName()); //Will print John
         System.out.println(person2.getName()); //Will also print John
-        person2.setName("Jane");
-        System.out.println(person1.getName());
-        System.out.println(person2.getName());
+        person2.setName("Jane"); //Will change person2 name to "Jane".. // also changes person1 name
+        System.out.println(person1.getName()); //Will print John.. // actually printed Jane
+        System.out.println(person2.getName()); //Will print Jane
     }
 }
 
