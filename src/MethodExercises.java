@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.lang.Math;
 
 public class MethodExercises {
     public static void main(String[] args) {
@@ -56,6 +57,10 @@ public class MethodExercises {
             return n;
         }
         return n * factorial(n - 1);
+    }
+
+    public static void dice (int nSides) {
+
     }
 
 
