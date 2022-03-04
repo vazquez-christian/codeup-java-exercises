@@ -8,6 +8,9 @@ public class Input {
     public Input() {
         this.scanner = new Scanner(System.in);
     }
+    public String getString() {
+        return this.scanner.nextLine();
+    }
 
     public String getString(String prompt) {
         System.out.println(prompt);
@@ -32,6 +35,7 @@ public class Input {
         return userInput;
     }
     public int getInt() {
+        System.out.println("Enter a whole number: ");
         return this.scanner.nextInt();
     }
     public int getInt(String prompt) {
