@@ -31,5 +31,26 @@ public class Input {
         } while (userInput < min || userInput > max);
         return userInput;
     }
+    public int getInt() {
+        return this.scanner.nextInt();
+    }
+    public int getInt(String prompt) {
+        System.out.println(prompt);
+        int userInput = 0;
+        userInput = Integer.parseInt(scanner.nextLine());
+        return userInput;
+    }
+    public double getDouble(double min, double max) {
+        double userInput = 0;
+        do {
+            System.out.println("Enter a double between " + min + " and " + max);
+            userInput = this.scanner.nextDouble();
+        } while (userInput < min || userInput > max);
+        return userInput;
+    }
+    public double getDouble() {
+        System.out.println("Enter a double: ");
+        return this.scanner.nextDouble();
+    }
 
 }
