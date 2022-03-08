@@ -35,7 +35,7 @@ public class Input {
         return userInput;
     }
     public int getInt() {
-        System.out.println("Enter a whole number: ");
+//        System.out.println("Enter a whole number: ");
         return this.scanner.nextInt();
     }
     public int getInt(String prompt) {
