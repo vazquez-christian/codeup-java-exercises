@@ -1,3 +1,5 @@
+package Notes;
+
 public class Persons {
     //Two String data types
     public String firstName;
